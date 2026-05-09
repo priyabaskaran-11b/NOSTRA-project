@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Collections</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <h1>Nostra</h1>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- SEARCH -->
+
+    <div class="search-box">
+
+        <input type="text" id="search" placeholder="Search Products">
+
+    </div>
+
+
+
+    <!-- FILTER BUTTONS -->
+
+    <div class="buttons">
+
+        <button onclick="filterProducts('all')">All</button>
+
+        <button onclick="filterProducts('men')">Men</button>
+
+        <button onclick="filterProducts('women')">Women</button>
+
+        <button onclick="filterProducts('shoes')">Shoes</button>
+
+        <button onclick="filterProducts('winter')">Winter</button>
+
+    </div>
+
+
+
+    <!-- PRODUCTS -->
+
+    <section class="products">
+
+        <div class="product men">
+            <span class="heart" onclick="like(this,'Men Shirt','₹999','img/download.jpeg')">♡</span>
+
+            <img src="img/download.jpeg">
+
+            <h2>Men Shirt</h2>
+
+            <p>₹999</p>
+        </div>
+
+
+        <div class="product men">
+            <span class="heart" onclick="like(this,'Hoodie','₹1499','img/hoodie.jpeg')">♡</span>
+
+            <img src="img/hoodie.jpeg">
+
+            <h2>Hoodie</h2>
+
+            <p>₹1499</p>
+        </div>
+
+
+        <div class="product men">
+            <span class="heart" onclick="like(this,'Cotton Shirt','₹1199','img/cotton-shirt.jpeg')">♡</span>
+
+            <img src="img/cotton-shirt.jpeg">
+
+            <h2>Cotton Shirt</h2>
+
+            <p>₹1199</p>
+        </div>
+
+
+        <div class="product women">
+            <span class="heart" onclick="like(this,'Women Dress','₹2499','img/dress.jpeg')">♡</span>
+
+            <img src="img/dress.jpeg">
+
+            <h2>Women Dress</h2>
+
+            <p>₹2499</p>
+        </div>
+
+
+        <div class="product women">
+            <span class="heart" onclick="like(this,'Saree','₹2999','img/saree.jpeg')">♡</span>
+
+            <img src="img/saree.jpeg">
+
+            <h2>Saree</h2>
+
+            <p>₹2999</p>
+        </div>
+
+
+        <div class="product women">
+            <span class="heart" onclick="like(this,'Women Top','₹999','img/top.jpeg')">♡</span>
+
+            <img src="img/top.jpeg">
+
+            <h2>Women Top</h2>
+
+            <p>₹999</p>
+        </div>
+
+
+        <div class="product women">
+            <span class="heart" onclick="like(this,'Kurti','₹1499','img/kurti.jpeg')">♡</span>
+
+            <img src="img/kurti.jpeg">
+
+            <h2>Kurti</h2>
+
+            <p>₹1499</p>
+        </div>
+
+
+        <div class="product shoes">
+            <span class="heart" onclick="like(this,'Sneakers','₹2999','img/sneakers.jpeg')">♡</span>
+
+            <img src="img/sneakers.jpeg">
+
+            <h2>Sneakers</h2>
+
+            <p>₹2999</p>
+        </div>
+
+
+        <div class="product shoes">
+            <span class="heart" onclick="like(this,'Running Shoe','₹3499','img/running-shoe.jpg')">♡</span>
+
+            <img src="img/running-shoe.jpg">
+
+            <h2>Running Shoe</h2>
+
+            <p>₹3499</p>
+        </div>
+
+
+        <div class="product shoes">
+            <span class="heart" onclick="like(this,'White Shoe','₹3999','img/whiteshoe.jpg')">♡</span>
+
+            <img src="img/whiteshoe.jpg">
+
+            <h2>White Shoe</h2>
+
+            <p>₹3999</p>
+        </div>
+
+
+        <div class="product winter">
+            <span class="heart" onclick="like(this,'Winter Jacket','₹3999','img/jacket.jpeg')">♡</span>
+
+            <img src="img/jacket.jpeg">
+
+            <h2>Winter Jacket</h2>
+
+            <p>₹3999</p>
+        </div>
+
+
+        <div class="product winter">
+            <span class="heart" onclick="like(this,'Winter Sweater','₹2499','img/sweater.jpeg')">♡</span>
+
+            <img src="img/sweater.jpeg">
+
+            <h2>Winter Sweater</h2>
+
+            <p>₹2499</p>
+        </div>
+
+
+        <div class="product winter">
+            <span class="heart" onclick="like(this,'Winter Hoodie','₹1999','img/hoodie.jpeg')">♡</span>
+
+            <img src="img/hoodie.jpeg">
+
+            <h2>Winter Hoodie</h2>
+
+            <p>₹1999</p>
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h2>Nostra</h2>
+
+                <p>Premium Fashion Collections</p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h2>Quick Links</h2>
+
+                <p>Home</p>
+
+                <p>Collections</p>
+
+                <p>Contact</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
