@@ -1,25 +1,32 @@
-# Description
+# NOSTRA project 
+Nostra is a modern fashion ecommerce website created using HTML, CSS, and JavaScript.
 
-Nostra is a modern fashion ecommerce website developed using HTML, CSS, and JavaScript.
-It allows users to explore fashion collections, search products, filter categories, and save favorite items using the wishlist feature.
+The website provides users with a stylish online shopping experience where they can explore fashion products, search collections, filter categories, and save favorite items.
+
+This project is designed with a clean UI and responsive layout to give a real ecommerce website feel.
 
 ✨ Features
 
-Home Page
-Product Collections
-Search Function
-Category Filter
-Favorites / Wishlist
-Winter Collection Section
-Responsive Design
+🏠 Modern Home Page
+👕 Fashion Product Collections
+🔍 Product Search Function
+🎯 Category Filter
+❤️ Favorites / Wishlist System
+💾 Favorites saved using Local Storage
+❄️ Winter Collection Section
+📱 Responsive Design
+✨ Hover Effects & Animations
+
 
 🛠 Technologies Used
-HTML
-CSS
+HTML5
+CSS3
 JavaScript
 
-📂 Pages
-index.html – Home Page
-collections.html – Collections Page
-favorites.html – Favorites Page
-contact.html – Contact Page
+📂 Project Pages
+Page	Description
+index.html	Home page
+collections.html	Product collections
+favorites.html	Favorite products
+contact.html	Contact form
+
