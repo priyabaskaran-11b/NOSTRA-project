@@ -1,8 +1,10 @@
 # Description
+
 Nostra is a modern fashion ecommerce website developed using HTML, CSS, and JavaScript.
 It allows users to explore fashion collections, search products, filter categories, and save favorite items using the wishlist feature.
 
 ✨ Features
+
 Home Page
 Product Collections
 Search Function
